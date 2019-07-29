@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+$primary-color: #2196F3; // blue-500
+$accent-color: #FFD740; // amber-A200
+
+@import "../src/assets/onsen-css-components.css";
+@import "../src/assets/theme.css";
+
+body { 
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+}
+
+.basic-container {
+  padding: 5px;
+}
+
+.version-info {
+  color: black;
+  font-size: 13pt;
+  position: fixed;
+  bottom: 0; 
+  right: 0;
+}
+
+.mat-app-background {
+  height: 100vh;
+}
+
+.version-info {
+  color: white;
+}

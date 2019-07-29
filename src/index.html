@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Aegis</title>
+  <base href="/">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script async src="index.js"></script>	
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#000000">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script async src="https://cse.google.com/cse.js?cx=009648402533651925172:pqmi0ay-rhg"></script>
+ <style>
+        html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        -webkit-overflow-scrolling: touch;
+    }
+    html {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0;
+        overflow: auto;
+    }
+    body {
+        padding: 1rem;
+        overflow: auto;
+    }
+    </style>
+</head>
+
+<body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA618RbtiJjlPXCNIJmLFRdvHaYyS-ixU4",
+    authDomain: "smarntrading.firebaseapp.com",
+    databaseURL: "https://smarntrading.firebaseio.com",
+    projectId: "smarntrading",
+    storageBucket: "smarntrading.appspot.com",
+    messagingSenderId: "234615058519",
+    appId: "1:234615058519:web:950d5e170fd4aa17"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<aegis>
+<div id="container" class="form center">
+<div class="gcse-searchbox-only"></div>
+</div>
+</aegis>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+<script>
+    System.import('main.ts').catch(function(err){ console.error(err); });
+</script>
+</body>
+</html>
