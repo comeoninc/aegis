@@ -1,6 +1,12 @@
+require('polyfills/globalself');
+import 'lib/landing-page/x-app.js';
+import 'lib/app-layout/app/demo/app-grid/app-grid-style.js';
+import 'lib/app-layout/app/demo/app-header-layout/app-header-layout.js';
+import 'lib/app-layout/app/demo/app-box/app-box.js';
+
 var read = require('node-readability');
 
-read('/market', function(err, article, meta) {
+read('/', function(err, article, meta) {
   // Main Article
   console.log(article.content);
   // Title
