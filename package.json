@@ -37,7 +37,7 @@
     "angular-bootstrap-md": "^8.1.0",
     "core-js": "^2.4.1",
     "express": "^4.15.2",
-    "fullpage.js": "^3.0.7",
+    "fullpage.js": "^4.0.5",
     "hapi": "^17.8.5",
     "nativescript-angular": "^8.0.3",
     "node-readability": "^3.0.0",
